@@ -10,7 +10,7 @@ def memorize(fn):
         """缓存装饰器"""
         if args not in cache:
             cache[args] = fn(*args)
-        # print(cache)
+            # print(cache)
         return cache[args]
 
     return memorizer
