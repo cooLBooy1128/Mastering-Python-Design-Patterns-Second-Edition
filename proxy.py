@@ -81,7 +81,7 @@ class Info(SensitiveInfo):
 def main2():
     info = Info()
     while True:
-        print('1. read list || 2. add user || 3. delete user || 4. quit')
+        print('1. read list || 2. add user || 3. remove user || 4. quit')
         key = input('choose option: ')
         if key == '1':
             info.read()
